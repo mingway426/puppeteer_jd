@@ -36,7 +36,7 @@ const starter = async () => {
     const page = await browser.newPage();
     await page.emulate(iPhone);
     await page.goto(
-      "https://so.m.jd.com/ware/search.action?keyword=%E6%98%BE%E5%8D%A1&searchFrom=home&sf=11&as=1",
+      "https://so.m.jd.com/ware/search.action?keyword=RTX3070&searchFrom=home&sf=11&as=1",
       { waitUntil: 'load' }
     );
 
